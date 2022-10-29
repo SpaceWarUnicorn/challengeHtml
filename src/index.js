@@ -14,4 +14,4 @@ app.get('/cheatSheet', function (req, res) {
     res.send(html)
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
